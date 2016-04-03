@@ -15,6 +15,6 @@ complete <- function(directory="specdata",id=1:332){
                     sum)
                   )
                 )
-  df
+  return(df)
 }
 
